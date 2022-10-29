@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blue_pure"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/president"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bgbro"
+                android:backgroundTint="@color/blue"
+                android:text="President"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/residents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bgbro"
+                android:onClick="residents"
+                android:text="Director Non-Residents"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/library"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bgbro"
+                android:onClick="library"
+                android:text="Director Library and academics"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/health"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bgbro"
+                android:onClick="health"
+                android:text="Director Health Science and catering"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/hostels"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bgbro"
+                android:onClick="hostels"
+                android:text="Director Hostels(Ladies)"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/men"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bgbro"
+                android:onClick="men"
+                android:text="Director Hostels (Men)"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sports"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bgbro"
+                android:onClick="sports"
+                android:text="Director Sports and Recreation"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

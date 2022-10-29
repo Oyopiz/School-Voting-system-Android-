@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "801696688698",
+    "firebase_url": "https://betry-87706-default-rtdb.firebaseio.com",
+    "project_id": "betry-87706",
+    "storage_bucket": "betry-87706.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801696688698:android:c4472ae8f3858f3de12303",
+        "android_client_info": {
+          "package_name": "com.cryotech.trueidcaller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801696688698-ftb91abv14cjarj29v7elgf5vdm8dj11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAG29xn_FztDJg1sVD_sDMlpksX5BYZ68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801696688698-ftb91abv14cjarj29v7elgf5vdm8dj11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801696688698:android:d4327df0159708c9e12303",
+        "android_client_info": {
+          "package_name": "com.elitechinc.musicplayerd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801696688698-ftb91abv14cjarj29v7elgf5vdm8dj11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAG29xn_FztDJg1sVD_sDMlpksX5BYZ68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801696688698-ftb91abv14cjarj29v7elgf5vdm8dj11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801696688698:android:5e70165547bb7bf4e12303",
+        "android_client_info": {
+          "package_name": "com.oyopizmanga.vyingsys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801696688698-ftb91abv14cjarj29v7elgf5vdm8dj11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAG29xn_FztDJg1sVD_sDMlpksX5BYZ68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801696688698-ftb91abv14cjarj29v7elgf5vdm8dj11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801696688698:android:88ff416f45243d56e12303",
+        "android_client_info": {
+          "package_name": "com.rateme.betry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801696688698-ftb91abv14cjarj29v7elgf5vdm8dj11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAG29xn_FztDJg1sVD_sDMlpksX5BYZ68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801696688698-ftb91abv14cjarj29v7elgf5vdm8dj11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

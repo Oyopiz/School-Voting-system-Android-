@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oyopizmanga.vyingsys">
+
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VyingSys">
+        <activity
+            android:name=".adminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".results2Acticity"
+            android:exported="false" />
+        <activity
+            android:name=".checkrole"
+            android:exported="false" />
+        <activity
+            android:name=".votesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hostelsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menActivity"
+            android:exported="false" />
+        <activity
+            android:name=".directorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".healthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".libraryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".residentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presidentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".resultsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".contestantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".registerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".emptyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
